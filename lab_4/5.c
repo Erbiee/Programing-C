@@ -10,7 +10,6 @@ int main() {
 			printf(" ");
 		}
 
-		cnt_sym = h - i * 2;
 		for (int j = i; j < mid; j++) {
 			printf("%c", 65 + j);
 		}
@@ -24,7 +23,6 @@ int main() {
 			printf(" ");
 		}
 
-		cnt_sym = h - i * 2;
 		for (int j = i; j < mid; j++) {
 			printf("%c", 65 + j);
 		}
