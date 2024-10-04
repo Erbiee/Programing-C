@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-	int h, cnt_sym;
+	int h;
 	scanf("%d", &h);
 	int mid = (h - 1) / 2 + 1;
 
