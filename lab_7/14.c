@@ -9,7 +9,7 @@ int main()
 
     for (int i = 0; i < sizeof(s); i++)
     {
-        if (48 <= (int)s[i] && (int)s[i] <= 57)
+        if (48 <= (int)s[i] && (int)s[i] <= 57) // Если символ стоит между 0 и 9 по таблице ASCII
         {
             switch (s[i])
             {
